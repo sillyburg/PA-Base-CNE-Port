@@ -17,6 +17,8 @@ function update(elapsed:Float)
     _shader.aberration = _shaderIntensity;
 }
 
+// forgive me
+
 function beatHit(e:Int) if (checkForZoom(BeatType.BEAT, e, false)) zoomChrom();
 
 function stepHit(e:Int) if (checkForZoom(BeatType.STEP, e, false)) zoomChrom();
